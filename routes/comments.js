@@ -3,12 +3,6 @@ const router = express.Router();
 
 const controller = require('../controllers/comments');
 
-/**
- * GET Comments
- * GET Comments by Id
- * POST Comments
- */
-
 // Fetch all comments
 router.get('/comments', controller.list);
 
