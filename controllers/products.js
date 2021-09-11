@@ -1,3 +1,4 @@
+// Import initial array of products
 const db = require('../data/products');
 
 // Return all products

@@ -18,6 +18,7 @@ app.use(contacts);
 const vehicles = require('./routes/vehicles');
 app.use(vehicles);
 
+// Load routes for vehicles
 const products = require('./routes/products');
 app.use(products);
 
